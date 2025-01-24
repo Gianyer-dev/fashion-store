@@ -1,0 +1,32 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar__links {
+    display: flex;
+}
+
+.navbar__item {
+    padding: 1em;
+    border-radius: 1em;
+    text-decoration: none;
+    color: var(--cor-principal);
+}
+
+.navbar__item:hover {
+    background-color: var(--conteudo-color);
+}
+
+.butao {
+    background-color: #000;
+}
+
+.butao {
+    color: var(--cor-btn);
+}
+
+.butao:hover {
+    background-color: var(--cor-principal);
+}
