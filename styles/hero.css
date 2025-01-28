@@ -1,5 +1,5 @@
 .conteudo {
-    margin: 1em 0;
+    margin: 1em;
     display: flex;
     background-color: var(--conteudo-color);
     border-radius: 1em;

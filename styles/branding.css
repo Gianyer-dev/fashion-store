@@ -1,0 +1,22 @@
+.brand {
+    background-color: var(--brand-color);
+    border-radius: 0;
+    margin: 0;
+    padding: 1em;
+    margin: 2em 0;
+}
+
+.brand__logos {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.brand__logos-img {
+    margin: 0 1em;
+}
+
+.brand__logos-img img {
+    width: 6em;
+}
