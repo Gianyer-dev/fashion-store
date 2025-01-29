@@ -3,6 +3,7 @@
 @import url("./styles/hero.css");
 @import url("./styles/branding.css");
 @import url("./styles/galeria.css");
+@import url("./styles/banner.css");
 
 :root {
     --branco-principal: #fff;
@@ -12,6 +13,7 @@
     --conteudo-color: #F4F6F5;
 
     --brand-color: #EBD96B;
+    --banner-color: linear-gradient(#F9DF56, #E0C340);
 }
 
 * {

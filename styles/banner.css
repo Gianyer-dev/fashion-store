@@ -1,0 +1,42 @@
+.banner {
+    background-image: var(--banner-color);
+    margin: 2em 0;
+    border-radius: 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+
+}
+
+.banner__img {
+    display: flex;
+}
+
+.banner__img img {
+    width: 574px;
+}
+
+.banner__conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner__titulo {
+    display: flex;
+    align-items: center;
+}
+
+.banner__titulo img {
+    width: 360px;
+}
+
+.banner__texto p {
+    font-size: 22px;
+    line-height: 1.4;
+    margin: 1em 0;
+}
+
+.banner__texto p span {
+    font-weight: 600;
+}

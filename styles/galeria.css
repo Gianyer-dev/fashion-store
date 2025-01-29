@@ -5,6 +5,7 @@
     flex-direction: column;
     align-items: start;
 }
+
 .galeria__container {
     display: flex;
 }
@@ -35,9 +36,22 @@
     width: 100%;
 }
 
-.galeria__container div img {
+.galeria__card {
     width: 20em;
 }
+
+.galeria__card img {
+    width: 100%;
+}
+
+.galeria__card-card {
+    width: 35em;
+}
+
+.galeria__card-card img {
+    width: 100%;
+}
+
 
 .galeria__card-info {
     display: flex;
