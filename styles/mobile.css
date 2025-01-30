@@ -1,0 +1,37 @@
+.mobile {
+    background-color: var(--branco-principal);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2em;
+}
+
+.mobile__info {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 50%;
+}
+
+.mobile__info h2 {
+    font-size: 50px;
+    margin: 0.5em 0;
+}
+
+.mobile__info p {
+    margin: 2em 0;
+}
+
+.mobile__info-store {
+    margin: 2em 0;
+}
+
+.mobile__mobile {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.mobile__mobile img {
+    width: 520px;
+}

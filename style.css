@@ -4,6 +4,7 @@
 @import url("./styles/branding.css");
 @import url("./styles/galeria.css");
 @import url("./styles/banner.css");
+@import url("./styles/mobile.css");
 
 :root {
     --branco-principal: #fff;
