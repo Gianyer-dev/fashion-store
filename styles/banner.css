@@ -1,7 +1,6 @@
 .banner {
     background-image: var(--banner-color);
     margin: 2em 0;
-    border-radius: 0;
     display: grid;
     grid-template-columns: 50% 50%;
     align-items: center;

@@ -1,7 +1,6 @@
 .galeria {
     background-color: var(--branco-principal);
     margin: 2em;
-    display: flex;
     flex-direction: column;
     align-items: start;
 }

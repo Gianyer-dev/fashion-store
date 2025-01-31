@@ -1,6 +1,5 @@
 .mobile {
     background-color: var(--branco-principal);
-    display: flex;
     align-items: center;
     justify-content: center;
     margin: 2em;
@@ -14,6 +13,7 @@
 }
 
 .mobile__info h2 {
+    font-weight: 700;
     font-size: 50px;
     margin: 0.5em 0;
 }

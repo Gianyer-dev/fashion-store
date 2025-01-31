@@ -5,16 +5,24 @@
 @import url("./styles/galeria.css");
 @import url("./styles/banner.css");
 @import url("./styles/mobile.css");
+@import url("./styles/community.css");
+@import url("./styles/footer.css");
 
 :root {
     --branco-principal: #fff;
     --fonte-principal: "Poppins", serif;
     --cor-principal: #242323; 
     --cor-btn: #FEFEFE;
+
     --conteudo-color: #F4F6F5;
 
     --brand-color: #EBD96B;
     --banner-color: linear-gradient(#F9DF56, #E0C340);
+
+    --community-color: #E5C643;
+    --community-text: #767676;
+
+    --footer-color: #000000
 }
 
 * {
@@ -23,5 +31,6 @@
 }
 
 body {
+    height: 100vh;
     font-family: var(--fonte-principal);
 }
