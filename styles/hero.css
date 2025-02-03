@@ -43,3 +43,19 @@
 .conteudo__image {
     width: 38em;
 }
+
+@media screen and (max-width: 520px) {
+    .hero {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .conteudo__container {
+        align-items: center;
+        text-align: center;
+    }
+
+    .conteudo__image {
+        width: 100%;
+    }
+}
