@@ -1,26 +1,176 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, inital-scale=1.0">
-        <title>AluraBooks</title>
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="style.css">
-    </head> 
-    <body>
-        <header class="cabecalho">
-            <div class="container">
-                <input type="checkbox" id="menu" class="container__botao">
-                <label for="menu">
-                    <span class="cabecalho__menu-hamburguer container__imagem"></span>
-                </label>
-                <img src="img/Logo.svg" alt="Logo da AluraBooks" class=" container__imagem">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="navbar__logo"><img src="/assets/Logo.png"></a>
+        <div class="navbar__container">
+            <ul class="navbar__links">
+                <li><a href="#" class="navbar__item">Catalogue</a></li>
+                <li><a href="#" class="navbar__item">Fashion</a></li>
+                <li><a href="#" class="navbar__item">Favourite</a></a></li>
+                <li><a href="#" class="navbar__item">Lifestyle</a></li>
+                <li><a href="#"  class="navbar__item butao">Sign Up</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="conteudo hero">
+        <div class="conteudo__container">
+            <img src="/assets/Texto Shopping.png" class="conteudo__texto">
+            <h2 class="conteudo__paragrafo">Live for Influential and Innovative fashion!</h2>
+            <a href="#" class="conteudo__butao">Shop Now</a>
+        </div>
+        <img src="./assets/Shopping Image.png" class="conteudo__image">
+    </section>
+    <section class="conteudo brand">
+        <ul class="brand__logos">
+            <li class="brand__logos-img"><img src="assets/hm.png"></li>
+            <li class="brand__logos-img"><img src="assets/obey.png"></li>
+            <li class="brand__logos-img"><img src="assets/shopify.png"></li>
+            <li class="brand__logos-img"><img src="assets/lacoste.png"></li>
+            <li class="brand__logos-img"><img src="assets/levis.png"></li>
+            <li class="brand__logos-img"><img src="assets/amazon.png"></li>
+        </ul>
+    </section>
+    <section class="conteudo galeria">
+        <div class="galeria__container-titulo">
+            <h2 class="galeria__titulo">New Arrivals</h2>
+            <img src="assets/galeria titulo.png">
+        </div>
+        <div class="galeria__container">
+            <div class="galeria__card">
+                <img src="assets/mulher01.png">
+                <div class="galeria__card-info">
+                    <div>
+                        <h3>Hoodies & Sweetshirt</h3>
+                        <p>Explore Now!</p>
+                    </div>
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M869 487.8L491.2 159.9c-2.9-2.5-6.6-3.9-10.5-3.9h-88.5c-7.4 0-10.8 9.2-5.2 14l350.2 304H152c-4.4 0-8 3.6-8 8v60c0 4.4 3.6 8 8 8h585.1L386.9 854c-5.6 4.9-2.2 14 5.2 14h91.5c1.9 0 3.8-.7 5.2-2L869 536.2a32.07 32.07 0 0 0 0-48.4z"></path></svg></div>
+                </div>
+            <div class="galeria__card">
+                <img src="assets/mulher02.png">
+                <div class="galeria__card-info">
+                    <div>
+                        <h3>Coats & Parkas Explore Now!</h3>
+                        <p>Explore Now!</p>
+                    </div>
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M869 487.8L491.2 159.9c-2.9-2.5-6.6-3.9-10.5-3.9h-88.5c-7.4 0-10.8 9.2-5.2 14l350.2 304H152c-4.4 0-8 3.6-8 8v60c0 4.4 3.6 8 8 8h585.1L386.9 854c-5.6 4.9-2.2 14 5.2 14h91.5c1.9 0 3.8-.7 5.2-2L869 536.2a32.07 32.07 0 0 0 0-48.4z"></path></svg></div>
+                </div>
+            <div class="galeria__card">
+                <img src="assets/mulher03.png">
+                <div class="galeria__card-info">
+                    <div>
+                        <h3>Tees & T-Shirt</h3>
+                        <p>Explore Now!</p>
+                    </div>
+                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M869 487.8L491.2 159.9c-2.9-2.5-6.6-3.9-10.5-3.9h-88.5c-7.4 0-10.8 9.2-5.2 14l350.2 304H152c-4.4 0-8 3.6-8 8v60c0 4.4 3.6 8 8 8h585.1L386.9 854c-5.6 4.9-2.2 14 5.2 14h91.5c1.9 0 3.8-.7 5.2-2L869 536.2a32.07 32.07 0 0 0 0-48.4z"></path></svg></div>
             </div>
+    </section>
+    <section class="conteudo banner">
+        <div class="banner__img">
+            <img src="assets/Payday img.png">
+        </div>
+        <div class="banner__conteudo">
+            <div class="banner__titulo">
+                <img src="assets/banner img.png">
+            </div>
+            <div class="banner__texto">
+                <p>Spend minimal $100 get 30% off voucher code for your next purchase</p>
+                <p> <span>1 June - 10 June 2021 </span> <br> *Terms & Conditions apply</p>
+                <a href="#" class="conteudo__butao">SHOP NOW</a>
+            </div>
+        </div>
+    </section>
+    <section class="conteudo galeria">
+        <div class="galeria__container-titulo">
+            <h2 class="galeria__titulo">Young´s Favourite</h2>
+            <img src="assets/galeria titulo.png">
+        </div>
+        <div class="galeria__container">
+            <div class="galeria__card-card">
+                <img src="assets/Rectangle 49.png">
+                <div class="galeria__card-info">
+                    <div>
+                        <h3>Hoodies & Sweetshirt</h3>
+                        <p>Explore Now!</p>
+                    </div>
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M869 487.8L491.2 159.9c-2.9-2.5-6.6-3.9-10.5-3.9h-88.5c-7.4 0-10.8 9.2-5.2 14l350.2 304H152c-4.4 0-8 3.6-8 8v60c0 4.4 3.6 8 8 8h585.1L386.9 854c-5.6 4.9-2.2 14 5.2 14h91.5c1.9 0 3.8-.7 5.2-2L869 536.2a32.07 32.07 0 0 0 0-48.4z"></path></svg></div>
+                </div>
+            <div class="galeria__card-card">
+                <img src="assets/Rectangle 50.png">
+                <div class="galeria__card-info">
+                    <div>
+                        <h3>Coats & Parkas Explore Now!</h3>
+                        <p>Explore Now!</p>
+                    </div>
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M869 487.8L491.2 159.9c-2.9-2.5-6.6-3.9-10.5-3.9h-88.5c-7.4 0-10.8 9.2-5.2 14l350.2 304H152c-4.4 0-8 3.6-8 8v60c0 4.4 3.6 8 8 8h585.1L386.9 854c-5.6 4.9-2.2 14 5.2 14h91.5c1.9 0 3.8-.7 5.2-2L869 536.2a32.07 32.07 0 0 0 0-48.4z"></path></svg></div>
+                </div>
+    </section>
+    <section class="conteudo mobile">
+        <div class="mobile__info">
+            <h2 class="">DOWNLOAD APP & GET THE VOUCHER</h2>
+            <p class="">Get 30% off for first transaction using Rondovision mobile app for now.</p>
+            <div class="mobile__info-store">
+                <a href="#"><img src="./assets/PLAY STORE.png"></a>
+                <a href="#"><img src="./assets/APP STORE.png"></a>
+            </div>
+        </div>
+        <div class="mobile__mobile">
+            <img src="./assets/mobile app.png">
+        </div>
+    </section>
+    <section class="conteudo community">
+        <div class="community__texto">
+            <h2>JOIN SHOPPING COMMUNITY TO GET MONTHLY PROMO</h2>
+            <p>Type your email down below and be young wild generation</p>
+        </div>
+        <div class="community__input">
+            <input placeholder="Add your email here">
+            <button class="conteudo__butao">SEND</button>
+        </div>
+    </section>
+    <footer class="conteudo footer">
+        <div class="footer__midias">
+            <h2>FASHION</h2>
+            <p>Complete your style with awesome clothes from us.</p>
             <div>
-                <a href="#"><img src="img/Favoritos.svg " alt="Meus Favoritos" class="container__imagem"></a>
-                <a href="#"><img src="img/Compras.svg" alt="Minhas Compras" class="container__imagem"></a>
-                <a href="#"><img src="img/Usuário.svg" alt="Meu Perfil" class="container__imagem"></a>
+                <a href="#"><img src="./assets/Facebook.png"></a>
+                <a href="#"><img src="./assets/Instagram.png"></a>
+                <a href="#"><img src="./assets/Twitter.png"></a>
+                <a href="#"><img src="./assets/LinkedIn.png"></a>
             </div>
-        </header>
-    </body>
+        </div>
+        <div>
+            <h3>Company</h3>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Careers</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Quick Link</h3>
+            <ul>
+                <li><a href="#">Share Location</a></li>
+                <li><a href="#">Orders Tracking</a></li>
+                <li><a href="#">Size Guide</a></li>
+                <li><a href="#">FAQs</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Legal</h3>
+            <ul>
+                <li><a href="#">Terms & conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
 </html>

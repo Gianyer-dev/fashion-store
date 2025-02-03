@@ -18,3 +18,13 @@
 .brand__logos-img img {
     width: 6em;
 }
+
+@media screen and (max-width: 480px){
+    .brand__logos {
+        flex-wrap: wrap;
+    }
+
+    .brand__logos-img {
+        margin: 1em;
+    }
+}

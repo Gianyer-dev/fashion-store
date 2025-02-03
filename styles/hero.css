@@ -1,7 +1,3 @@
-.conteudo {
-    display: flex;
-}
-
 .hero {
     background-color: var(--conteudo-color);
     margin: 1em;
@@ -46,4 +42,19 @@
 
 .conteudo__image {
     width: 38em;
+}
+
+@media screen and (max-width: 480px) {
+    .hero {
+        width: 100%;
+    }
+
+    .conteudo__container {
+        align-items: center;
+        text-align: center;
+    }
+
+    .conteudo__image {
+        width: 24em;
+    }
 }
