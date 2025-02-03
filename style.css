@@ -1,36 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url("/styles/navbar.css");
-@import url("./styles/hero.css");
-@import url("./styles/branding.css");
-@import url("./styles/galeria.css");
-@import url("./styles/banner.css");
-@import url("./styles/mobile.css");
-@import url("./styles/community.css");
-@import url("./styles/footer.css");
+@import url(styles/header.css);
 
 :root {
-    --branco-principal: #fff;
-    --fonte-principal: "Poppins", serif;
-    --cor-principal: #242323; 
-    --cor-btn: #FEFEFE;
-
-    --conteudo-color: #F4F6F5;
-
-    --brand-color: #EBD96B;
-    --banner-color: linear-gradient(#F9DF56, #E0C340);
-
-    --community-color: #E5C643;
-    --community-text: #767676;
-
-    --footer-color: #000000
-}
-
-* {
-    margin: 0;
-    padding: 0;
+    --cor-de-fundo: #EBECEE;
+    --branco: #ffffff;
 }
 
 body {
-    height: 100vh;
-    font-family: var(--fonte-principal);
+    background-color: var(--cor-de-fundo);
 }
