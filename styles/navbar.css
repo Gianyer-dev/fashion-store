@@ -32,14 +32,3 @@
     background-color: var(--cor-principal);
 }
 
-@media screen and (max-width: 520px) {
-    .navbar {
-        flex-direction: column;
-    }
-
-    .navbar__container {
-        visibility: hidden;
-        height: 0;
-        width: 0;
-    }
-}

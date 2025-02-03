@@ -39,10 +39,3 @@ body {
     display: flex;
 }
 
-@media screen and (max-width: 520px){
-    .conteudo {
-        width: 100%;
-        flex-direction: column;
-        align-items: center;
-    }
-}
