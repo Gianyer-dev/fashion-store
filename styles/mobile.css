@@ -35,3 +35,9 @@
 .mobile__mobile img {
     width: 520px;
 }
+
+@media screen and (max-width: 520px) {
+    .mobile {
+        flex-direction: column;
+    }
+}

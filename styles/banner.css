@@ -4,7 +4,6 @@
     display: grid;
     grid-template-columns: 50% 50%;
     align-items: center;
-
 }
 
 .banner__img {
@@ -38,4 +37,27 @@
 
 .banner__texto p span {
     font-weight: 600;
+}
+
+@media screen and (max-width: 520px) {
+   .banner {
+    display: flex;
+    flex-direction: column;
+   } 
+
+   .banner__img img {
+    width: 100%;
+   }
+
+   .banner__conteudo {
+    align-items: center;
+    text-align: center;
+   }
+
+   .banner__texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
 }
