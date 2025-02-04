@@ -13,7 +13,7 @@
     margin-right: 2em;
 }
 
-.footer h2, h3 {
+.footer h2, .footer h3 {
     color: var(--branco-principal);
     margin: 0 0 1em 0;
 }
@@ -41,7 +41,7 @@
 }
 
 
-@media screen and (max-width: 520px ) {
+@media screen and (max-width: 520px) {
     .footer {
         flex-direction: column;
         text-align: center;
@@ -67,4 +67,10 @@
         margin: 1em;
     }
 
+}
+
+@media screen and (max-width: 380px) {
+    .footer__midias div{
+        flex-wrap: wrap;
+    }
 }

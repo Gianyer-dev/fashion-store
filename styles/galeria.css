@@ -35,6 +35,11 @@
     width: 100%;
 }
 
+.galeria__container a {
+    text-decoration: none;
+    color: var(--cor-principal);
+}
+
 .galeria__card {
     width: 20em;
 }
@@ -74,4 +79,20 @@
     width: 24px;
     height: 24px;
     color: var(--cor-principal);
+}
+
+@media screen and (max-width: 520px) {
+    .galeria__container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .galeria__card {
+        width: 18em;
+    }
+
+    .galeria__card-card {
+        width: 22em;
+    }
 }
