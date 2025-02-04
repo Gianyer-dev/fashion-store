@@ -75,34 +75,3 @@
     height: 24px;
     color: var(--cor-principal);
 }
-
-@media screen and (max-width: 520px) {
-    .galeria {
-        margin: 1em;
-    }
-
-    .galeria__container {
-        position: relative;
-        margin-bottom: 30px;
-        display: flex;
-        width: fit-content;
-        gap: 20px;
-    }
-
-    .galeria__card {
-        margin: 1em;
-    }
-
-    .galeria__container {
-        animation: slide 10s linear infinite;
-    }
-
-    @keyframes slide {
-        0% {
-            transform: translateX(0);
-        }
-        100% {
-            transform: translateX(-70%);
-        }
-    }
-}

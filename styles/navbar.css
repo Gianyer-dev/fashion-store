@@ -35,11 +35,23 @@
 @media screen and (max-width: 520px) {
     .navbar {
         flex-direction: column;
-        margin: 0;
+    }
+
+    .navbar__logo {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: 0.5em 0;
     }
 
     .navbar__container {
-        visibility: hidden;
+        visibility: collapse;
+        width: 0%;
+        height: 0%;
+    }
+
+    .navbar__links {
         width: 0;
         height: 0;
     }

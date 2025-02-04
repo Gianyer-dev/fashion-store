@@ -20,11 +20,12 @@
 }
 
 @media screen and (max-width: 520px) {
-    .brand__logos {
-        flex-wrap: wrap;
-    }
+   .brand__logos {
+    flex-wrap: wrap;
+   }
 
-    .brand__logos-img {
-        margin: 1em;
-    }
+   .brand__logos-img {
+    margin: 0.5em;
+}
+
 }

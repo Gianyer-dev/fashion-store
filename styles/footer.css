@@ -40,3 +40,30 @@
     font-size: 14px;
 }
 
+
+@media screen and (max-width: 520px ) {
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer p{
+        width: 100%;
+    }
+
+    .footer__midias div{
+        width: 100%;
+    }
+
+    .footer__midias div{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .footer div a{
+        margin: 0 1em;
+    }
+}

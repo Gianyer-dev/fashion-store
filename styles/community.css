@@ -64,3 +64,11 @@
     border: none;
     border-radius: 0.6em;
 }
+
+@media screen and (max-width: 520px) {
+    .community__input {
+        width: 80%;
+        justify-content: space-between;
+    }
+    
+}

@@ -40,4 +40,15 @@
     .mobile {
         flex-direction: column;
     }
+
+    .mobile__info, .mobile__mobile {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .mobile__mobile img {
+        width: 100%;
+    }
 }
