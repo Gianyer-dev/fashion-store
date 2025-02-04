@@ -63,7 +63,8 @@
         margin: 0;
     }
 
-    .footer div a{
-        margin: 0 1em;
+    .footer div, a{
+        margin: 1em;
     }
+
 }
